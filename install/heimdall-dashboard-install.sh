@@ -47,7 +47,7 @@ RestartSec=5
 Type=simple
 User=root
 WorkingDirectory=/opt/Heimdall
-ExecStart="/usr/bin/php" artisan serve --port 7990 --host 0.0.0.0
+ExecStart="/usr/bin/php" artisan serve --port 80 --host 0.0.0.0
 TimeoutStopSec=30
 
 [Install]
